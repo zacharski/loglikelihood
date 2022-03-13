@@ -28,7 +28,7 @@ def logLikelihoodRatio(biCount, w1, w2, tot):
 
 def computeLogLikelihood(filename, outfilename):
   global punct, ignoreCase, numResults
-  print('GLOBAL', punct)
+  #print('GLOBAL', punct)
   tot = 0
   bigrams = Counter()
   unigrams = Counter()
